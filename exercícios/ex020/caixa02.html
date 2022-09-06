@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+
+        header {
+            background-color: white;
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px black;
+            margin-bottom: 6px;
+            border-radius: 6px;
+        }
+        nav {
+            padding: 3px;
+            background-color: brown;
+        }
+        nav > a {
+            color: white;
+            margin-right: 12px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        nav > a:active {
+            visibility: hidden;
+        }
+
+        main {
+            background-color: white;
+            padding: 9px;
+            box-shadow: 5px 3px 7px 1px black;
+            padding-bottom: 10px;
+            border-radius: 6px;
+        }
+
+        article {
+            background-color: rgb(194, 193, 193);
+            
+        }
+
+        article > aside {
+            text-align: center;
+        }
+
+        #g1 {
+            text-decoration: none;
+        }
+
+        #g1:hover {
+        text-decoration: underline;
+        }
+
+        footer {
+            background-color: black;
+            padding: 15px;
+            color: white;
+            text-align: center;
+            border-radius: 6px;
+            margin-top: 4px;
+        }
+
+        footer > p {
+            margin: 0px; 
+        }
+
+        #e1:hover {
+            
+        }
+
+        #seção {
+            background-color: white;
+            padding-bottom: 15px;
+            box-shadow: 5px 3px 7px 1px black;
+            margin-top: 4px;
+            border-radius: 6px; 
+        }
+
+        #artigo {
+            background-color: white;
+            padding: 1px;
+            
+        }
+
+        aside > p::after, aside > p::before {
+            content: '★';
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="principal">
+        Esporte Notícia Entretenimento
+        </section>
+        <section>
+            <article>
+            <h2>Notícias do Brasil</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, ex commodi non asperiores quibusdam quam eveniet tempore illo culpa reprehenderit. Temporibus atque dolores blanditiis placeat voluptas nisi voluptatem, ut, optio nemo quidem similique libero delectus deserunt, labore facere sit dolorum deleniti nostrum dicta corporis! Incidunt delectus odit quam repellendus tempora.</p>
+                <aside><p>Escrito por <a href="https://www.instagram.com/gustavoguanabara/" target="_blank" rel="external" id="g1">Gustavo Guanabra</a></p></aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <section id="seção">
+        <article id ="artigo">
+            <h2>Notícias do Mundo</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium aut, ratione illum reiciendis vitae cupiditate obcaecati doloremque fugit, quam sequi assumenda error non exercitationem iste officia dolores delectus totam! Excepturi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos deleniti aut harum, laboriosam eveniet dignissimos nam illum magni modi soluta. Aliquam impedit veritatis voluptas voluptatibus illum maxime labore animi temporibus!</p>
+        </article>
+    </section>
+    <footer>
+        <p id="e1">Desenvolvido por Luís Fernando</p>
+    </footer>
+    <script>
+    </script>
+</body>
+</html>

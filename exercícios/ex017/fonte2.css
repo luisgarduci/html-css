@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+
+* {
+font-family: 'Joan', serif;
+}
+
+main {
+background-color: white;
+width: 900px;
+padding: 15px;
+border-radius: 10px;
+box-shadow: 5px 5px 12px #886f59;
+margin: auto;
+top: 0;
+}
+
+a {
+    text-align: center;
+}
+
+body {
+    background-image: linear-gradient(to top, #FFCB9A, #D8B08C);
+    background-attachment: fixed;
+}
+
+h1 {
+text-align: center;
+text-decoration: underline;
+color: #0F6466;
+}
+
+h2 {
+color: #0F6466;
+}
+
+html {
+    height: 100%;
+}
+
+p {
+    text-align: justify;
+}
+footer {
+    background-color: #D2E8E3;
+    padding-bottom: 10px;
+}
+a {
+    text-align: center;
+}

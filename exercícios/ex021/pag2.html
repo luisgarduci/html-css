@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <style>
+      
+      @charset "UTF-8";
+
+       * {
+        margin: 0;
+        padding: 0;
+       }
+
+        body {
+            height: 120vh;
+        }
+
+        #q1 {
+            background-position: center center;
+        }
+
+        #q2 {
+            background-position: left bottom;
+        }
+
+        #q3 {
+            background-position: right top;
+        }
+
+        #q4 {
+            background-position: top left;
+        }
+
+        .bloco {
+            background-image: url(natureza.webp);
+            background-repeat: no-repeat;
+            height: 160px;
+            border: 1px solid black;
+            border-radius: 20px;
+            margin: 10px;
+        }
+        .resposta {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-top: 28px;
+            margin-left: 8px;
+        }
+
+        .setaesquerda {
+            position: absolute;
+            width: 6%;
+            left: 40%;
+        }
+
+        .setadireita {
+            position: absolute;
+            width: 6%;
+            left: 50%;
+        }
+        
+    </style>
+</head>
+<body>
+    <header></header>
+    <div class="bloco" id="q1">
+       <input type="button" value="01" class="resposta" id="input1"onclick="clicar(01)">
+    </div>
+
+    <div class="bloco" id="q2">
+        <input type="button" value="02" class="resposta" id="input2" onclick="clicar(02)">
+    </div>
+    
+    <div class="bloco" id="q3">
+        <input type="button" value="03" class="resposta" id="input3"onclick="clicar(03)">
+    </div>
+
+    <div class="bloco" id="q4">
+        <input type="button" value="04" class="resposta" id="input4"onclick="clicar(04)">
+    </div>
+    <a href="pag1.html" rel="prev"><img src="seta esquerda.png" alt="" class="setaesquerda"></a>
+    <a href="pag3.html" rel="next"><img src="seta direita.png" alt="" class="setadireita"></a>
+    <script>
+        function clicar (value) {
+        var inp1 = document.getElementById ("input1")
+        var inp2 = document.getElementById ("input2")
+        var inp3 = document.getElementById ("input3")
+        var inp4 = document.getElementById("input4")
+        if (value == "04") {
+            window.alert ('Você acertou!')
+        } else {
+            window.alert ('Você errou!')
+        } 
+        }
+    </script>
+</body>
+</html>

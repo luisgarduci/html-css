@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIV</title>
+    <style>
+        body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: normal;
+        font-size: 18px;
+        background-image: linear-gradient(to bottom, #9EF8EE, #348888);
+        background-attachment: fixed;
+        }
+
+        main {
+            margin: auto;
+            background-color: white;
+            width: 700px;
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 2px 2px 12px;
+        }
+
+        div {
+            background-color: black;
+            width: 210px;
+            height: 210px;
+            border: 1px solid white;
+            display: inline-block;
+            text-align: center;
+        }
+
+        div > p {
+        display: none;
+        }
+
+        div:hover {
+        background-color: gray;
+        }
+
+        #d1 > p {
+        color: white;
+        font-size: 15px;
+        }
+
+        #d2 > p {
+        color: white;
+        font-size: 15px;
+        }
+
+        #d3 > p {
+        color: white;
+        font-size: 15px;
+        }
+
+        div:hover > p {
+        display: block;
+        }
+
+        h1 {
+        text-align: center;
+        text-decoration: underline;
+        }
+
+        p {
+        text-align: justify;
+        text-indent: 30px;
+        }
+
+        html {
+            height: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1 id="principal">Título</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quo ipsum ad repudiandae tempora fugiat dolor vero repellendus nobis eveniet similique commodi quidem deserunt, ipsa quisquam nam sit culpa quia iste. Atque ea minus exercitationem tenetur perspiciatis illo accusantium sapiente incidunt, mollitia, at numquam neque iusto ipsam sed. Soluta, reprehenderit?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil cupiditate atque porro perferendis molestias. Recusandae dicta voluptatum asperiores accusamus. Voluptatum, magni libero. Sit rerum commodi, dolore quidem perspiciatis iure ipsa facilis suscipit dolorem, natus a nobis. Officia, ut earum dicta enim aut animi eaque ipsa eveniet incidunt mollitia distinctio asperiores.</p>
+        <h2>Título 2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quo minima reiciendis omnis, nemo esse autem nisi sunt voluptas vero cumque repellendus quia beatae libero! Vero, mollitia ab magni molestiae placeat tempora voluptatum sit quidem culpa quisquam dicta totam debitis labore saepe 
+        nostrum quibusdam praesentium natus fugit. Enim, totam voluptas.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci itaque harum pariatur minima numquam aliquam quos, consectetur doloribus impedit voluptatibus cumque sed beatae reiciendis sint voluptate eligendi at, est enim!</p>
+        <h2>Título 3</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo sit at fugiat reprehenderit maxime totam debitis sed sint, sequi aliquam recusandae vel voluptatem. Suscipit, asperiores reprehenderit doloribus magnam cumque qui dolorem! Sed veritatis, quas officia neque, debitis tempore accusamus esse consectetur quisquam soluta, sit possimus! Quis, minus. Harum, tenetur labore?</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos accusamus nulla nisi magni vero commodi id consectetur, laborum expedita labore quasi! Architecto porro sapiente commodi quidem doloremque, blanditiis ad similique facilis eligendi delectus animi amet rerum. Eum qui incidunt amet nisi est aliquid dolore cum distinctio, veniam temporibus ratione iure.</p>
+        <div id="d1">
+            !
+            <p>TEXTO ESCONDIDO...</p>
+        </div>
+        <div id="d2">
+            !
+            <p>TEXTO ESCONDIDO...</p>
+        </div>
+        <div id="d3">
+            !
+            <p>TEXTO ESCONDIDO...</p>
+        </div>
+        <a href="#principal">Clique aqui pra voltar para o início</a>
+    </main>
+
+</body>
+</html>
