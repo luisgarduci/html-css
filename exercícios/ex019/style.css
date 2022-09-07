@@ -15,14 +15,15 @@ margin: auto;
 border-radius: 10px;
 }
 
+main p {
+text-align: justify;
+}
+
 h1 {
 text-align: center;
 text-decoration: underline;
 }
 
-p {
-text-align: justify;
-}
 
 div {
 background-color: gray;
@@ -37,6 +38,7 @@ text-align: center;
 
 div > p {
 display: none;
+text-align: center;
 }
 
 div:hover {
