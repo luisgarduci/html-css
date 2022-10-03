@@ -17,16 +17,23 @@
         height: 100vh;
     }
 
+    tbody > tr:nth-child(2n) {
+        background-color: lightgray;
+    }
+
     td {
-        padding: 10px;
-        width: 5px;
+        padding: 15px;
+        width: 120px;
         text-align: right;
         border: 1px solid black;
     }
 
+
     .cabeça {
+       position: sticky;
+       top: 33px;
        color: white;
-       padding: 8px;
+       padding: 12px;
        border: 1px solid black;
        background-color: gray;
     }
@@ -41,12 +48,17 @@
     caption {
         padding: 8px;
         font-weight: bold;
+        color: white;
+        background-color: gray;
+        position: sticky;
+        top: -1px;
+        border-bottom: 1px solid black;
     }
 
     table {
-        max-width: 500px;
+        max-width: 800px;
         margin: auto;
-        padding: 8px;
+        padding: 5px;
         margin-top: 30px;
         margin-bottom: 10px;
         border-collapse: collapse;
