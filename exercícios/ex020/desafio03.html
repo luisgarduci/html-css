@@ -12,33 +12,44 @@
 
         table {
             width: 500px;
-            padding: 10px;
+            padding: 8px;
             border-collapse: collapse;
             margin: auto;
-            margin-top: 150px;
+            margin-top: 70px;
         }
 
         th {
             background-color: gray;
             color: white;
             font-weight: bold;
-            padding: 3px;
+            padding: 6px;
             border: 1px solid black;
         }
 
         td {
             border: 1px solid black;
-            width: 55px;
+            width: 60px;
             padding: 15px;
         }
 
         #exatas {
             background-color: white;
             color: black;
+            
         }
 
         tr {
         
+        }
+
+        .media {
+            text-align: left;
+            padding: 8px;
+        }
+
+        #humanas {
+            color: black;
+            background-color: white;
         }
     </style>
 </head>
@@ -57,7 +68,7 @@
         </tr>
         </thead>
         <tr>
-            <th rowspan="4" id="exatas" scope="row">Exatas</th>
+            <th rowspan="4" id="exatas" scope="rowgroup">Exatas</th>
             <td>Matemática</td>
             <td>0.0</td>
             <td>0.0</td>
@@ -79,6 +90,27 @@
             <td>Biologia</td>
             <td>0.0</td>
             <td>0.0</td>
+            <td>0.0</td>
+        </tr>
+        <tr>
+            <th colspan="4" scope="colgroup" class="media">Média de exatas</th>
+            <td>0.0</td>
+        </tr>
+        <tr>
+            <th rowspan="2" id="humanas" scope="rowgroup">Humanas</th>
+            <td>História</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+        </tr>
+        <tr>
+            <td>Geografia</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+        </tr>
+        <tr>
+            <th colspan="4" scope="colgroup" class="media">Média de humanas</th>
             <td>0.0</td>
         </tr>
     </table>
