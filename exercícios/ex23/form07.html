@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idade</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="iano">em que ano você nasceu?</label>
+            <input type="number" name="ano" id="iano" required oninput="calcIdade()">
+        </p>
+
+        <p>
+            <label for="iidade">Sua idade é:</label>
+            <output name="idade" id="iidade"></output>
+        </p>
+        <p>
+            <label for="n1">Número 1:</label>
+            <input type="number" name="number1" id="n1" required placeholder="Digite um número" oninput="isoma.innerHTML = Number(n1.value) + Number(n2.value)">
+        </p>
+        <p>
+            <label for="n2">Número 2:</label>
+            <input type="number" name="number2" id="n2" required placeholder="Digite outro número" oninput="isoma.innerHTML = Number(n1.value) + Number(n2.value)">
+        </p>
+          <label for="n3">Nível de satisfação</label>
+          <input type="range" name="nivel" id="n3" required min="0" max="10" oninput="inivel.innerHTML = Number(n3.value)">
+          <output id="inivel">5</output>
+        <p>
+            <label for="isoma">Soma:</label>
+            <output id="isoma">0</output>
+        </p>
+    </form>
+    
+    <script>
+        function calcIdade () {
+            var atual = new Date().getFullYear()
+            iidade.innerHTML = atual - Number(iano.value)
+        }
+    </script>
+</body>
+</html>
