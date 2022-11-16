@@ -5,4 +5,4 @@
 
  <a href="https://luisgarduci.github.io/html-css/exercícios/ex001"> Executar o exercício 001
 
- <a href="https://luisgarduci.github.io/html-css/exercícios/ex024"> Executar exercício sobre Media Feature
+ <a href="https://luisgarduci.github.io/html-css/exercícios/ex024/mq002"> Executar exercício sobre Media Feature
