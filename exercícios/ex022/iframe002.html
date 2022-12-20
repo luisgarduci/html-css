@@ -4,27 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste</title>
+    <title>Iframe</title>
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.3em;
+        }
+
+        h1 {
+            text-align: center;
+            text-decoration: underline;
         }
 
         iframe {
-            width: 500px;
-            height: 400px;
+            border: 1px solid black;
+            width: 600px;
+            height: 300px;
+            display: block;
+            margin: auto;
+        }
+
+        a {
+            text-align: center;
             margin: auto;
             display: block;
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: blue;
+        }
+
+        p {
+            text-align: justify;
         }
     </style>
 </head>
 <body>
-    <h1>Isso é um teste!</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum accusantium quia cupiditate eum suscipit deserunt, mollitia vitae excepturi dolor distinctio. Tempora iusto quisquam esse harum, quos in? Minus, tenetur animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quasi facilis sunt sint excepturi, a alias totam incidunt debitis temporibus harum ab, id amet deleniti veritatis praesentium porro magni molestiae?</p>
-    
-    <iframe src="https://luisgarduci.github.io/projeto-android/index" frameborder="0">
+    <h1>Páginas Internas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse nesciunt repudiandae placeat culpa autem, minus quisquam accusamus dicta obcaecati unde, odio quos ea est quo tempora temporibus repellendus mollitia ullam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat odit explicabo dolore. Commodi quia, exercitationem dignissimos explicabo fugit impedit possimus quas maxime doloribus odio illum aperiam saepe officia, dicta itaque?</p>
+    <p> <a href="https://luisgarduci.github.io/projeto-android/index" target="name">Clique aqui!</a></p>
 
+    <iframe src="" name="name" sandbox="allow-forms" referrerpolicy="no-refferer">
+        Esse dispositivo não é compatível com iframes!
     </iframe>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium architecto culpa minus asperiores deleniti itaque totam? Veritatis, perferendis fuga error quas, explicabo ex voluptatum officia, praesentium voluptates obcaecati dolor esse! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi cum odit asperiores consequatur ullam ad quos? Illo tempore accusantium sint excepturi nesciunt cumque repudiandae neque laboriosam repellat possimus, odio fugiat!</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat atque nihil delectus dolore tempora quaerat amet distinctio error. Deserunt perferendis autem doloremque iusto obcaecati praesentium nihil quae aliquid, blanditiis dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea eos modi quia ullam molestiae labore aliquam quod? Cupiditate, magnam! Dolor temporibus quibusdam voluptate odit. Ducimus sequi ipsum fugit tenetur ipsa?</p>
 </body>
 </html>

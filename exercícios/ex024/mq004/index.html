@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-queries.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <i id="burguer" class="material-icons" onclick="clicar()">menu</i>
+        <nav id="itens">
+            <ul>
+                <li>Opção 1</li>
+                <li>Opção 2</li>
+                <li>Opção 3</li>
+                <li>Opção 4</li>
+                <li>Opção 5</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Testando Media Queries</h2>
+        <article>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam repudiandae nostrum temporibus rem at facere natus ducimus quia doloremque numquam, praesentium quos, esse alias earum consequuntur. A ex mollitia officia nesciunt fugit, et atque ipsa perferendis porro necessitatibus exercitationem, aliquid quas placeat vitae vel dolor sint eum libero iusto obcaecati.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi at itaque, porro necessitatibus provident modi perferendis dicta incidunt ratione in deserunt expedita, rerum consequuntur ea repellendus a dolore ducimus vel neque temporibus accusantium. Itaque nemo quasi voluptas voluptatum totam nobis officiis aperiam sed? Dolorum omnis vitae quo accusantium neque sapiente.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam quisquam recusandae velit nam beatae quam quis, accusamus fugiat deleniti corrupti? A, voluptatem est? Minus rem officia facilis ducimus perferendis dolorem provident voluptate adipisci corporis! Aperiam animi provident sint neque, necessitatibus odit at aspernatur, dolore ipsam eum velit natus molestiae quos.</p>
+        </article>
+    </main>
+    <script>
+        function clicar() {
+            if (itens.style.display == "none") 
+            itens.style.display = "block"
+         else {
+            itens.style.display = "none"
+         }
+        }
+
+    </script>
+</body>
+</html>
