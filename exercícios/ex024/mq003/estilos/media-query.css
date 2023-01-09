@@ -83,9 +83,15 @@ Grandes telas: acima de 1200px
 
     img#tv {
         display: block;
+        margin-bottom: 15px;
     }
 
     main {
         width: 600px;
+        padding: 12px;
     }
+
+
+
+
 }

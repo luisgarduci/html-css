@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 768px) {
     nav {
-        display: inline-block;
+        display: block;
         text-align: left;
     }
 
@@ -17,5 +17,10 @@
 
     #burguer {
         display: none;
+    }
+
+    main{
+        width: 768px;
+        
     }
 }

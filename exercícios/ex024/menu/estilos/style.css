@@ -41,7 +41,7 @@ i#burguer:hover {
 nav {
     margin-left: 18px;
     position: absolute;
-    top: 0%;
+    top: 0;
     display: none;
 }
 
@@ -69,4 +69,5 @@ main {
     padding: 5px;
     margin: 0 auto;
     display: block;
+    
 }

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-queries.css">
 </head>
-<body>
+<body onresize="mudarTamanho()">
     <header>
         <h1>Meu Site</h1>
         <i id="burguer" class="material-icons" onclick="clicar()">menu</i>
@@ -33,6 +33,15 @@
         </article>
     </main>
     <script>
+
+        function mudarTamanho () {
+            if (window.innerWidth >= 768)
+            itens.style.display = 'block'
+         else {
+            itens.style.display = 'none'
+        }
+    }
+
         function clicar() {
             if (itens.style.display == "none") 
             itens.style.display = "block"
